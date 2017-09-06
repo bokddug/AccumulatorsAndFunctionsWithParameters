@@ -36,7 +36,7 @@ def test_sum_of_digits():
     print('Testing the   sum_of_digits   function:')
     print('--------------------------------------------------')
     testCases = TestCaseCollection()
-    testCases.addTestCase([826], 16, "", [826]) 
+    testCases.addTestCase([826], 16, "", [826])
     testCases.addTestCase([83135], 20, "", [83135])
     testCases.addTestCase([1000000], 1, "", [1000000])
     runTestOnMethod(m3.sum_of_digits, testCases, "sum_of_digits")

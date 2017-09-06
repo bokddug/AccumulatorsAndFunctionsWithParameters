@@ -17,7 +17,7 @@ def main():
 def test_sum_cosines():
     """ Tests the   sum_cosines   function. """
     # ------------------------------------------------------------------
-    # TODO: 2. Implement this function.
+    # DONE: 2. Implement this function.
     #   It TESTS the  sum_cosines  function defined below.
     #   Include at least **   3   ** tests.
     #
@@ -129,7 +129,7 @@ def sum_square_roots(n):
     total = 0
     for k in range(n):
         total = total+(math.sqrt(2*(k+1)))
-    return total 
+    return total
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
